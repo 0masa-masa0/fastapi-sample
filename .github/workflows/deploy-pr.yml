@@ -46,7 +46,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: check yq
-        run: yq -v
+        run: yq --version
 
       - name: Update fastapi-sample image
         env:
